@@ -1,0 +1,28 @@
+# .NET
+API/bin/
+API/obj/
+*.user
+*.suo
+.vs/
+
+# SQLite / local DB
+*.db
+*.db-shm
+*.db-wal
+
+# Angular / Node
+client/node_modules/
+client/dist/
+client/.angular/
+client/npm-debug.log
+
+# Build output (Angular → API/wwwroot)
+API/wwwroot/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+
+# Secrets (рекомендуется)
+API/appsettings.Development.json
