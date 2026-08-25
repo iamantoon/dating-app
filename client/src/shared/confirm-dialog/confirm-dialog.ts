@@ -9,7 +9,7 @@ import { ConfirmDialogService } from '../../core/services/confirm-dialog-service
 })
 export class ConfirmDialog {
   @ViewChild('dialogRef') dialogRef!: ElementRef<HTMLDialogElement>;
-  public message = 'Are you sure?';
+  public message = $localize`:@@confirmDialogMessage:Are you sure?`;
   private resolver: ((result: boolean) => void) | null = null;
 
   constructor() {

@@ -10,7 +10,7 @@ export const adminGuard: CanActivateFn = (route, state) => {
   if (accountService.currentUser()?.roles.includes('Admin') || accountService.currentUser()?.roles.includes('Moderator')) {
     return true;
   } else {
-    toast.error('Enter this area, you cannot');
+    toast.error($localize`:@@adminGuardError:Enter this area, you cannot`);
     return false;
   }
 };

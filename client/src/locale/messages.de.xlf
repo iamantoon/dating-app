@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="routeProfile" datatype="html">
+        <source>Profile</source>
+        <target>Profil</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-detailed/member-detailed.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="routePhotos" datatype="html">
+        <source>Photos</source>
+        <target>Fotos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="routeMessages" datatype="html">
+        <source>Messages</source>
+        <target>Nachrichten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adminGuardError" datatype="html">
+        <source>Enter this area, you cannot</source>
+        <target>Du darfst diesen Bereich nicht betreten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/guards/admin-guard.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="authGuardError" datatype="html">
+        <source>You shall not pass</source>
+        <target>Du kommst hier nicht durch</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/guards/auth-guard.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="unauthorizedError" datatype="html">
+        <source>Unauthorized</source>
+        <target>Nicht autorisiert</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/interceptors/error-interceptor.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="somethingWentWrongError" datatype="html">
+        <source>Something went wrong</source>
+        <target>Etwas ist schiefgelaufen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/interceptors/error-interceptor.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="newMessageReceived" datatype="html">
+        <source><x id="name" equiv-text="message.senderDisplayName"/> has sent you a new message</source>
+        <target><x id="name" equiv-text="message.senderDisplayName"/> hat dir eine neue Nachricht gesendet</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/services/presence-service.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7028204981963450021" datatype="html">
+        <source>Sign up</source>
+        <target>Registrieren</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4294913753867242891" datatype="html">
+        <source>Credentials</source>
+        <target>Anmeldedaten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4915431133669985304" datatype="html">
+        <source>Profile</source>
+        <target>Profil</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2159130950882492111" datatype="html">
+        <source>Cancel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3971100408152984961" datatype="html">
+        <source> Next </source>
+        <target> Weiter </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5804570904874086984" datatype="html">
+        <source>Gender: </source>
+        <target>Geschlecht: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8012344910054029733" datatype="html">
+        <source>Male</source>
+        <target>Männlich</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5667840900782067941" datatype="html">
+        <source>Female</source>
+        <target>Weiblich</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dateOfBirth" datatype="html">
+        <source>Date of birth</source>
+        <target>Geburtsdatum</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="city" datatype="html">
+        <source>City</source>
+        <target>Stadt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="country" datatype="html">
+        <source>Country</source>
+        <target>Land</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8890553633144307762" datatype="html">
+        <source>Back</source>
+        <target>Zurück</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2907733796351584017" datatype="html">
+        <source> Register </source>
+        <target> Registrieren </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/account/register/register.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="photoModeration" datatype="html">
+        <source>Photo moderation</source>
+        <target>Fotomoderation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/admin/admin.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="userManagement" datatype="html">
+        <source>User management</source>
+        <target>Benutzerverwaltung</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/admin/admin.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5875067960290302978" datatype="html">
+        <source>Find your match</source>
+        <target>Finde dein Match</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/home/home.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+        <note priority="1" from="description">A greeting shown on home</note>
+        <note priority="1" from="meaning">User greeting</note>
+      </trans-unit>
+      <trans-unit id="6093241409142381879" datatype="html">
+        <source>Come on in... all you need to do is sign up</source>
+        <target>Komm herein... alles, was du tun musst, ist dich zu registrieren</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/home/home.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+        <note priority="1" from="description">A description shown on home</note>
+        <note priority="1" from="meaning">Application description</note>
+      </trans-unit>
+      <trans-unit id="3301086086650990787" datatype="html">
+        <source>Register</source>
+        <target>Registrieren</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/home/home.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="learnMoreButton" datatype="html">
+        <source>Learn more</source>
+        <target>Mehr erfahren</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/home/home.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3370316719562825342" datatype="html">
+        <source>There are no results for this filter</source>
+        <target>Für diesen Filter gibt es keine Ergebnisse</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/lists/lists.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="liked" datatype="html">
+        <source>Liked</source>
+        <target>Gefällt mir</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/lists/lists.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="likedMe" datatype="html">
+        <source>Liked me</source>
+        <target>Gefällt mir</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/lists/lists.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mutual" datatype="html">
+        <source>Mutual</source>
+        <target>Beidseitig</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/lists/lists.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5180757266011817434" datatype="html">
+        <source>Member not found</source>
+        <target>Mitglied nicht gefunden</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-detailed/member-detailed.html</context>
+          <context context-type="linenumber">57,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6528293956987882763" datatype="html">
+        <source>Select filters</source>
+        <target>Filter auswählen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-list/member-list.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6849725902312323996" datatype="html">
+        <source>Reset filters</source>
+        <target>Filter zurücksetzen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-list/member-list.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="orderRecentlyActive" datatype="html">
+        <source>Recently active</source>
+        <target>Kürzlich aktiv</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-list/member-list.ts</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="orderNewestMembers" datatype="html">
+        <source>Newest members</source>
+        <target>Neueste Mitglieder</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-list/member-list.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="filtersSelected" datatype="html">
+        <source>Selected: <x id="PH" equiv-text="filters.join(&apos;  | &apos;)"/></source>
+        <target>Ausgewählt: <x id="PH" equiv-text="filters.join(&apos;  | &apos;)"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-list/member-list.ts</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="allMembers" datatype="html">
+        <source>All members</source>
+        <target>Alle Mitglieder</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-list/member-list.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6672382996098509994" datatype="html">
+        <source>No photos available</source>
+        <target>Keine Fotos verfügbar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-photos/member-photos.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="748261382455394217" datatype="html">
+        <source>Member since:</source>
+        <target>Mitglied seit:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-profile/member-profile.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9096632600000843048" datatype="html">
+        <source>Last active:</source>
+        <target>Zuletzt aktiv:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-profile/member-profile.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3174354408404578867" datatype="html">
+        <source>About <x id="INTERPOLATION" equiv-text="{{member.displayName}}"/></source>
+        <target>Über <x id="INTERPOLATION" equiv-text="{{member.displayName}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-profile/member-profile.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2409672154570643758" datatype="html">
+        <source>Display name</source>
+        <target>Anzeigename</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-profile/member-profile.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4902817035128594900" datatype="html">
+        <source>Description</source>
+        <target>Beschreibung</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-profile/member-profile.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2314075913167237221" datatype="html">
+        <source>City</source>
+        <target>Stadt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-profile/member-profile.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="516176798986294299" datatype="html">
+        <source>Country</source>
+        <target>Land</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-profile/member-profile.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4943998242904350511" datatype="html">
+        <source> Submit </source>
+        <target> Speichern </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-profile/member-profile.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="profileUpdatedSuccess" datatype="html">
+        <source>Profile updated successfully</source>
+        <target>Profil erfolgreich aktualisiert</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/members/member-profile/member-profile.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5419095076710081676" datatype="html">
+        <source>Sender \ Recipient</source>
+        <target>Absender \ Empfänger</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/messages/messages.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8066608938393600549" datatype="html">
+        <source>Message</source>
+        <target>Nachricht</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/messages/messages.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3973931101896534797" datatype="html">
+        <source>Date</source>
+        <target>Datum</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/messages/messages.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inbox" datatype="html">
+        <source>Inbox</source>
+        <target>Posteingang</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/messages/messages.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="outbox" datatype="html">
+        <source>Outbox</source>
+        <target>Postausgang</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/messages/messages.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="confirmDeleteMessage" datatype="html">
+        <source>Are you sure you want to delete this message?</source>
+        <target>Sind Sie sicher, dass Sie diese Nachricht löschen möchten?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/features/messages/messages.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="556314932283680579" datatype="html">
+        <source>Dating app</source>
+        <target>Dating-App</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/layout/nav/nav.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8756167649220050929" datatype="html">
+        <source>Lists</source>
+        <target>Listen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/layout/nav/nav.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6452372740127749380" datatype="html">
+        <source>Messages</source>
+        <target>Nachrichten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/layout/nav/nav.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5041354590769758251" datatype="html">
+        <source>Admin</source>
+        <target>Administrator</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/layout/nav/nav.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8157372473189397040" datatype="html">
+        <source>Errors</source>
+        <target>Fehler</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/layout/nav/nav.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="userImageTitle" datatype="html">
+        <source>user avatar</source>
+        <target>Benutzeravatar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/layout/nav/nav.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5265161251609188502" datatype="html">
+        <source>Edit profile</source>
+        <target>Profil bearbeiten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/layout/nav/nav.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="logoutButton" datatype="html">
+        <source>Logout</source>
+        <target>Abmelden</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/layout/nav/nav.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="loginButton" datatype="html">
+        <source><x id="START_BLOCK_IF" equiv-text="@if (loading()) {"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;mr-2 loading loading-spinner&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_BLOCK_IF" equiv-text="}"/> Login </source>
+        <target><x id="START_BLOCK_IF" equiv-text="@if (loading()) {"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;mr-2 loading loading-spinner&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_BLOCK_IF" equiv-text="}"/> Anmelden </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/layout/nav/nav.html</context>
+          <context context-type="linenumber">91,95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="loginSuccess" datatype="html">
+        <source>Logged in successfully</source>
+        <target>Erfolgreich eingeloggt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/layout/nav/nav.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="confirmDialogMessage" datatype="html">
+        <source>Are you sure?</source>
+        <target>Sind Sie sicher?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/shared/confirm-dialog/confirm-dialog.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

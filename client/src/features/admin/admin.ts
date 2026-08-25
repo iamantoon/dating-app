@@ -13,8 +13,8 @@ export class Admin {
   public accountService = inject(AccountService);
   public activeTab = 'photos';
   public tabs = [
-    {label: 'Photo moderation', value: 'photos'},
-    {label: 'User management', value: 'roles'}
+    {label: $localize`:@@photoModeration:Photo moderation`, value: 'photos'},
+    {label: $localize`:@@userManagement:User management`, value: 'roles'}
   ];
 
   public setTab(tab: string) {

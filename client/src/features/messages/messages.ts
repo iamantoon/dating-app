@@ -22,8 +22,8 @@ export class Messages implements OnInit {
   protected pageSize = 10;
   protected paginatedMessages = signal<PaginatedResult<Message> | null>(null);
   protected tabs = [
-    {label: 'Inbox', value: 'Inbox'},
-    {label: 'Outbox', value: 'Outbox'},
+    {label: $localize`:@@inbox:Inbox`, value: 'Inbox'},
+    {label: $localize`:@@outbox:Outbox`, value: 'Outbox'},
   ];
 
   public ngOnInit(): void {
@@ -41,7 +41,7 @@ export class Messages implements OnInit {
 
   public async confirmDelete(event: Event, id: string) {
     event.stopPropagation();
-    const ok = await this.confirmDialog.confirm('Are you sure you want to delete this message?');
+    const ok = await this.confirmDialog.confirm($localize`:@@confirmDeleteMessage:Are you sure you want to delete this message?`);
     if (ok) this.deleteMessage(id);
   }
 

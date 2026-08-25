@@ -41,6 +41,17 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "fr": {
+            "translation": "src/locale/messages.fr.xlf"
+          },
+          "de": {
+            "translation": "src/locale/messages.de.xlf"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular/build:application",
@@ -57,7 +68,8 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.css"]
+            "styles": ["src/styles.css"],
+            "polyfills": ["@angular/localize/init"]
           },
           "configurations": {
             "production": {
@@ -85,7 +97,9 @@
                   "with": "src/environments/environment.development.ts"
                 }
               ]
-            }
+            },
+            "fr": { "localize": ["fr"] },
+            "de": { "localize": ["de"] }
           },
           "defaultConfiguration": "production"
         },
@@ -97,7 +111,9 @@
             },
             "development": {
               "buildTarget": "client:build:development"
-            }
+            },
+            "fr": { "buildTarget": "client:build:development,fr" },
+            "de": { "buildTarget": "client:build:development,de" }
           },
           "defaultConfiguration": "development"
         },

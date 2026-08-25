@@ -80,8 +80,12 @@ export class MemberList implements OnInit {
       filters.push(` ages ${this.updatedParams.minAge}-${this.updatedParams.maxAge}`);
     }
 
-    filters.push(this.updatedParams.orderBy === 'lastActive' ? 'Recently active' : 'Newest members');
+    filters.push(this.updatedParams.orderBy === 'lastActive' 
+      ? $localize`:@@orderRecentlyActive:Recently active` 
+      : $localize`:@@orderNewestMembers:Newest members`);
 
-    return filters.length > 0 ? `Selected: ${filters.join('  | ')}` : 'All members';
+    return filters.length > 0 
+      ? $localize`:@@filtersSelected:Selected: ${filters.join('  | ')}` 
+      : $localize`:@@allMembers:All members`;
   }
 }

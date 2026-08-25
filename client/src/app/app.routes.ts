@@ -29,20 +29,20 @@ export const routes: Routes = [
             path: 'profile',
             loadComponent: () =>
               import('../features/members/member-profile/member-profile').then(m => m.MemberProfile),
-            title: 'Profile',
+            title: $localize`:@@routeProfile:Profile`,
             canDeactivate: [preventUnsavedChangesGuard],
           },
           {
             path: 'photos',
             loadComponent: () =>
               import('../features/members/member-photos/member-photos').then(m => m.MemberPhotos),
-            title: 'Photos',
+            title: $localize`:@@routePhotos:Photos`,
           },
           {
             path: 'messages',
             loadComponent: () =>
               import('../features/members/member-messages/member-messages').then(m => m.MemberMessages),
-            title: 'Messages',
+            title: $localize`:@@routeMessages:Messages`,
           },
         ],
       },

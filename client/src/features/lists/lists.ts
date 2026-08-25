@@ -19,9 +19,9 @@ export class Lists implements OnInit {
   protected pageSize = 5;
 
   protected tabs = [
-    {label: 'Liked', value: 'liked'},
-    {label: 'Liked me', value: 'likedBy'},
-    {label: 'Mutual', value: 'mutual'}
+    {label: $localize`:@@liked:Liked`, value: 'liked'},
+    {label: $localize`:@@likedMe:Liked me`, value: 'likedBy'},
+    {label: $localize`:@@mutual:Mutual`, value: 'mutual'}
   ];
 
   public ngOnInit(): void {

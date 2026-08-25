@@ -20,7 +20,7 @@ export class MemberDetailed implements OnInit {
   protected memberService = inject(MemberService);
   protected presenceService = inject(PresenceService);
   protected likesService = inject(LikesService);
-  protected title = signal<string | undefined>('Profile');
+  protected title = signal<string | undefined>($localize`:@@routeProfile:Profile`);
   private routeId = signal<string | null>(null);
   protected isCurrentUser = computed(() => {
     return this.accountService.currentUser()?.id === this.routeId();

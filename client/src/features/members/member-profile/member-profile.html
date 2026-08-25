@@ -1,18 +1,18 @@
 @if (memberService.member(); as member) {
   <div class="flex flex-col gap-3">
     <div class="flex gap-3">
-      <span class="font-semibold">Member since:</span>
+      <span class="font-semibold" i18n>Member since:</span>
       <span>{{member.created | date: 'longDate'}}</span>
     </div>
     <div class="flex gap-3">
-      <span class="font-semibold">Last active:</span>
+      <span class="font-semibold" i18n>Last active:</span>
       <span>{{member.lastActive | timeAgo}}</span>
     </div>
-    <h3 class="text-lg font-semibold text-primary">About {{member.displayName}}</h3>
+    <h3 class="text-lg font-semibold text-primary" i18n>About {{member.displayName}}</h3>
     @if (memberService.editMode()) {
       <form #editForm="ngForm" (ngSubmit)="updateProfile()" class="flex flex-col w-full gap-4">
         <label class="floating-label">
-          <span>Display name</span>
+          <span i18n>Display name</span>
           <input 
             name="displayName" 
             [(ngModel)]="editableMember.displayName"
@@ -21,7 +21,7 @@
           />
         </label>
         <label class="floating-label">
-          <span>Description</span>
+          <span i18n>Description</span>
           <textarea 
             name="description" 
             [(ngModel)]="editableMember.description"
@@ -30,7 +30,7 @@
           ></textarea>
         </label>
         <label class="floating-label">
-          <span>City</span>
+          <span i18n>City</span>
           <input 
             name="city" 
             [(ngModel)]="editableMember.city"
@@ -39,7 +39,7 @@
           />
         </label>
         <label class="floating-label">
-          <span>Country</span>
+          <span i18n>Country</span>
           <input 
             name="country" 
             [(ngModel)]="editableMember.country"
@@ -52,6 +52,7 @@
             class="btn btn-success" 
             type="submit"
             [disabled]="!editForm.dirty"
+            i18n
           >
             Submit
           </button>

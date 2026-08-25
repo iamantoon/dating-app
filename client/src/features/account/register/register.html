@@ -1,10 +1,10 @@
 <div class="card bg-base-100 w-1/2 mx-auto flex flex-col p-6 rounded-lg shadow-lg">
-  <div class="card-title justify-center text-3xl text-primary mt-14">Sign up</div>
+  <div class="card-title justify-center text-3xl text-primary mt-14" i18n>Sign up</div>
   <div class="card-body w-full">
 
     <ul class="steps">
-      <li class="step step-primary">Credentials</li>
-      <li class="step" [class.step-primary]="currentStep() === 2">Profile</li>
+      <li class="step step-primary" i18n>Credentials</li>
+      <li class="step" [class.step-primary]="currentStep() === 2" i18n>Profile</li>
     </ul>
 
     @if (currentStep() === 1) {
@@ -14,12 +14,13 @@
         <app-text-input label="Password" formControlName="password" type="password" />
         <app-text-input label="Confirm password" formControlName="confirmPassword" type="password" />
         <div class="flex items-center justify-end gap-3">
-          <button class="btn" (click)="cancel()" type="button">Cancel</button>
+          <button class="btn" (click)="cancel()" type="button" i18n>Cancel</button>
           <button 
             (click)="nextStep()"
             [disabled]="!credentialsForm.valid" 
             class="btn btn-primary" 
             type="button"
+            i18n
           >
             Next
           </button>
@@ -31,33 +32,35 @@
       <form [formGroup]="profileForm" class="flex flex-col w-full gap-4 steps">
         
         <div class="flex items-center gap-4">
-          <div class="font-semibold">Gender: </div>
+          <div class="font-semibold" i18n>Gender: </div>
           <label class="flex gap-3 items-center">
-            <span>Male</span>
+            <span i18n>Male</span>
             <input type="radio" formControlName="gender" value="male" class="radio radio-primary">
           </label>
           <label class="flex gap-3 items-center">
-            <span>Female</span>
+            <span i18n>Female</span>
             <input type="radio" formControlName="gender" value="female" class="radio radio-primary">
           </label>
         </div>
 
         <app-text-input 
           label="Date of birth" 
+          i18n-label="@@dateOfBirth"
           type="date" 
           formControlName="dateOfBirth"
           [maxDate]="getMaxDate()"
         />
-        <app-text-input label="City" formControlName="city" class="mt-2" />
-        <app-text-input label="Country" formControlName="country" class="mt-2" />
+        <app-text-input i18n-label="@@city" label="City" formControlName="city" class="mt-2" />
+        <app-text-input i18n-label="@@country" label="Country" formControlName="country" class="mt-2" />
 
         <div class="flex items-center justify-end gap-3">
-          <button class="btn" (click)="prevStep()" type="button">Back</button>
+          <button class="btn" (click)="prevStep()" type="button" i18n>Back</button>
           <button 
             (click)="register()"
             [disabled]="!profileForm.valid" 
             class="btn btn-primary" 
             type="button"
+            i18n
           >
             Register
           </button>

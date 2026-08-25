@@ -32,7 +32,7 @@ export class Nav implements OnInit {
     this.accountService.login(this.creds).subscribe({
       next: () => {
         this.router.navigateByUrl('/members');
-        this.toastService.success('Logged in successfully');
+        this.toastService.success($localize`:@@loginSuccess:Logged in successfully`);
         this.creds = {};
       },
       error: error => {

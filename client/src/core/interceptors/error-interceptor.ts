@@ -26,7 +26,7 @@ export const errorInterceptor: HttpInterceptorFn = (req, next) => {
             }
             break;
           case 401:
-            toast.error('Unauthorized');
+            toast.error($localize`:@@unauthorizedError:Unauthorized`);
             break;
           case 404:
             router.navigateByUrl('/not-found');
@@ -36,7 +36,7 @@ export const errorInterceptor: HttpInterceptorFn = (req, next) => {
             router.navigateByUrl('/server-error', navigationExtras);
             break;
           default:
-            toast.error('Something went wrong');
+            toast.error($localize`:@@somethingWentWrongError:Something went wrong`);
             break;
         }
       }

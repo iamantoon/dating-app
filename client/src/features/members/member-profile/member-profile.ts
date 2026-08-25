@@ -49,7 +49,7 @@ export class MemberProfile implements OnInit, OnDestroy {
           currentUser.displayName = updatedMember.displayName;
           this.accountService.setCurrentUser(currentUser);
         }
-        this.toast.success('Profile updated successfully');
+        this.toast.success($localize`:@@profileUpdatedSuccess:Profile updated successfully`);
         this.memberService.member.set(updatedMember as Member);
         this.memberService.editMode.set(false);
         this.editForm?.reset(updatedMember);
